@@ -14,7 +14,8 @@ public class AndroidLogger {
     private final static String USER_HOME = System.getProperty("user.home");
     private static String androidJar = USER_HOME + "/Library/Android/sdk/platforms";
     static String androidDemoPath = System.getProperty("user.dir") + File.separator + "demo" + File.separator + "Android";
-    static String apkPath = androidDemoPath + File.separator + "/calc.apk";
+    // static String apkPath = androidDemoPath + File.separator + "/calc.apk";
+    static String apkPath = "/Users/joseph/Downloads/gpp-malicious-0626/9db6cf9bdf2a88f5dc96575abed308e46e38cc6f81c33bfc0b332a0481268d17.apk";
     static String outputPath = androidDemoPath + File.separator + "/Instrumented";
 
 
